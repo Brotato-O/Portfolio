@@ -14,7 +14,7 @@ links.forEach((link) => {
 });
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault();
+  // event.preventDefault();
   const name = form.elements.name.value.trim();
 
   alert(`Cảm ơn ${name || "bạn"} đã liên hệ! Mình sẽ phản hồi sớm nhất.`);
