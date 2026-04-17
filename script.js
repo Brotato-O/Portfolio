@@ -18,5 +18,4 @@ form.addEventListener("submit", (event) => {
   const name = form.elements.name.value.trim();
 
   alert(`Cảm ơn ${name || "bạn"} đã liên hệ! Mình sẽ phản hồi sớm nhất.`);
-  form.reset();
 });
